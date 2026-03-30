@@ -1,3 +1,23 @@
-body{
-background-color: aquamarine;
-color: blueviolet;}
+* {
+    background-color: chartreuse;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: antiquewhite margin: 100px;
+    padding: 50px;
+    border: 20px solid yellow
+    border-style: dashed;
+    border-width: 10px
+    border-color: darkseagreen;
+    border-radius:40px 10px 100px 61px
+    text-align: center;
+    width: 150px;
+    /*comentario do css*/
+
+
+
+}
+#conteudo{
+    width:70%
+    margin
