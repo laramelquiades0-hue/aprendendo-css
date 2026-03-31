@@ -4,20 +4,53 @@
 
 h1 {
     color: blueviolet;
-    background-color: antiquewhite margin: 100px;
+    background-color: antiquewhite;
+     margin: 100px;
     padding: 50px;
-    border: 20px solid yellow
+    border: 20px solid yellow;
     border-style: dashed;
-    border-width: 10px
+    border-width: 10px;
     border-color: darkseagreen;
-    border-radius:40px 10px 100px 61px
+    border-radius:40px 10px 100px 61px;
     text-align: center;
     width: 150px;
     /*comentario do css*/
-
-
-
 }
 #conteudo{
-    width:70%
-    margin
+    width:70%;
+}
+ #area-login{
+    border-radius: 10px;
+    border:2px solid black;
+    padding: 50px;
+    margin: auto;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+button{
+    margin-top: 20px;
+background-color: rgb(215, 184, 230);
+border-radius: 10px;
+border: 10px solid #fff;
+}
+
+input{
+    background-color: #fff;
+border-radius: 15px;
+padding: 10px;
+}
+ input[type="email"]{
+    background-color: bisque;
+ }
+ #usuario{
+    background-color: darkgrey;
+ } 
+ button:hover{
+    background-color: antiquewhite;
+    color: rgb(209, 145, 66);
+    border: solid 2px black;
+    font-size: 25px
+    
+ }
